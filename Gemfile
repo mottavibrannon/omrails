@@ -13,8 +13,10 @@ group :production do
 	gem 'pg'
 end
 
-
-
+# Gem to provide user authentication
+gem 'devise'
+# Simple Rails forms
+gem 'simple_form'
 
 # Gems used only for assets and not required
 # in production environments by default.
