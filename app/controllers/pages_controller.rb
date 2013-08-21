@@ -5,5 +5,6 @@ class PagesController < ApplicationController
   def action
   	#Content to come
   end
+  
 
 end

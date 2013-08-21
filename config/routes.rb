@@ -1,8 +1,12 @@
 Omrails::Application.routes.draw do
-  devise_for :users
+  resources :pins
 
+
+  devise_for :users
+  get 'profile' => 'pages#profile'
   get 'about' => 'pages#about'
   root :to => 'pages#home'
+
   #get "pages/home"
 
   # The priority is based upon order of creation:
